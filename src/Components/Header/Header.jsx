@@ -144,7 +144,7 @@ export default function Header() {
               <h5 className="modal-title" id="logoutModalLabel">Log out?</h5>
               <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div className="modal-body">Ви впевнені, що хочете вийти?</div>
+            <div className="modal-body">Would you like to log out?</div>
             <div className="modal-footer border-0">
               <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
               <button type="button" className="btn btn-danger" onClick={confirmLogout}>Yes, log out</button>
