@@ -35,15 +35,24 @@ export const login = createAsyncThunk(
 
 export const register = createAsyncThunk(
   "auth/register",
-  async (body, { rejectWithValue }) => {
+  async (
+    { firstName, lastName, age, email, password },
+    { rejectWithValue }
+  ) => {
     try {
-      const { data } = await api.post("/auth/register", body);
+      const payload = {
+        email: (email || "").trim(),
+        password,
+        name: (firstName || "").trim(),
+        surname: (lastName || "").trim(),
+        age: Number(age),
+      };
+
+      const { data } = await api.post("/auth/register", payload);
       const token = data.access_token || data.token;
-      const user = data.user || null;
-      if (!token) throw new Error("Missing access token");
       localStorage.setItem("token", token);
-      if (user) localStorage.setItem("user", JSON.stringify(user));
-      return { token, user };
+      if (data.user) localStorage.setItem("user", JSON.stringify(data.user));
+      return { token, user: data.user || null };
     } catch (e) {
       return rejectWithValue(e?.response?.data?.message || "Register failed");
     }
