@@ -1,0 +1,92 @@
+.review-page {
+  padding-top: 24px;
+}
+
+.card-dark {
+  background: #121214;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.hero__wrap {
+  background:
+    radial-gradient(1200px 400px at -10% 30%, rgba(255, 0, 145, 0.25), transparent 60%),
+    radial-gradient(1200px 400px at 110% 70%, rgba(111, 66, 193, 0.25), transparent 60%),
+    linear-gradient(135deg, #1a1424 0%, #0e0d13 100%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+.bg-gradient-pink {
+  background: linear-gradient(90deg, #ff4d97, #a855f7);
+}
+.stars {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1;
+  color: #3a3a3a;
+}
+
+.stars>span {
+  display: block;
+  color: #3a3a3a;
+}
+
+.stars__fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ffd166;
+}
+
+.pros li,
+.cons li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.pros li:last-child,
+.cons li:last-child {
+  border-bottom: 0;
+}
+
+.methods .method-pill {
+  background: #121214;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 999px;
+  padding: 10px 16px;
+  text-align: center;
+  font-weight: 600;
+}
+.accordion-dark .accordion-item {
+  background: #121214;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.accordion-dark .accordion-button {
+  background: #121214;
+  color: #fff;
+}
+
+.accordion-dark .accordion-button:not(.collapsed) {
+  background: #18181b;
+  color: #fff;
+  box-shadow: none;
+}
+
+.accordion-dark .accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-dark .accordion-body {
+  background: #121214;
+}
+
+.cta {
+  background: linear-gradient(180deg, #121214, #0f0f12);
+}

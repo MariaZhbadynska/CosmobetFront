@@ -1,0 +1,188 @@
+.spins-page {
+    padding-top: 24px;
+}
+
+.card-dark {
+    background: #121214;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.card-dark-soft {
+    background: #0f0f12;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.spins-hero__wrap {
+    background:
+        radial-gradient(900px 300px at -10% 30%, rgba(255, 0, 145, 0.15), transparent 60%),
+        radial-gradient(900px 300px at 110% 70%, rgba(111, 66, 193, 0.15), transparent 60%),
+        linear-gradient(135deg, #15131c 0%, #0d0d12 100%);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.spins-rail {
+    background:
+        linear-gradient(180deg, rgba(255, 77, 151, 0.3), rgba(168, 85, 247, 0.3)),
+        linear-gradient(180deg, #0f0f12, #0f0f12);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.chip {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #121214;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.chip-ghost {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.chip-gradient {
+    background: linear-gradient(90deg, #ff4d97, #a855f7);
+    border-color: transparent;
+}
+
+.btn-ghost-success {
+    border: 1px solid #21c26b;
+    color: #21c26b;
+    background: transparent;
+}
+
+.btn-ghost-success:hover {
+    background: rgba(33, 194, 107, 0.08);
+    color: #28d07a;
+    border-color: #28d07a;
+}
+
+.scroll-row {
+    display: flex;
+    overflow-x: auto;
+    padding: 4px;
+    gap: 8px;
+    scroll-snap-type: x mandatory;
+}
+
+.scroll-row::-webkit-scrollbar {
+    display: none;
+}
+
+.chip-filter {
+    scroll-snap-align: start;
+}
+
+.chip-filter.is-active {
+    background: linear-gradient(90deg, #ff4d97, #a855f7);
+    border-color: transparent;
+}
+
+.ticket-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    gap: 0;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.ticket-card__spine {
+    width: 10px;
+}
+
+.ticket-card__body {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.kv__k {
+    font-size: 12px;
+}
+
+.kv__v {
+    font-weight: 600;
+}
+
+.promo-input {
+    gap: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #0f0f12;
+    border-radius: 999px;
+    padding: 6px 8px;
+}
+
+.promo-code {
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.timeline {
+    list-style: none;
+    padding-left: 14px;
+    margin: 0;
+    border-left: 2px dashed rgba(255, 255, 255, 0.1);
+}
+
+.timeline__item {
+    position: relative;
+    margin: 0 0 16px 0;
+}
+
+.timeline__dot {
+    position: absolute;
+    left: -7px;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #ff4d97, #a855f7);
+    box-shadow: 0 0 0 4px rgba(255, 77, 151, 0.15);
+}
+
+.timeline__content {
+    margin-left: 10px;
+}
+
+.snap-row {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(240px, 320px);
+    gap: 14px;
+    overflow-x: auto;
+    padding: 6px 2px;
+    scroll-snap-type: x proximity;
+}
+
+.snap-row::-webkit-scrollbar {
+    height: 6px;
+}
+
+.snap-row::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+}
+
+.snap-card {
+    scroll-snap-align: start;
+}
+
+.slot-card .slot-img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.cta-alt {
+    border: 1px dashed rgba(255, 255, 255, 0.15);
+    background: linear-gradient(180deg, #121214, #0f0f12);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.bg-gradient-pink {
+    background: linear-gradient(90deg, #ff4d97, #a855f7);
+}

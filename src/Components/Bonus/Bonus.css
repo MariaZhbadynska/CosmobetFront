@@ -1,0 +1,100 @@
+.bonus-page {
+    padding-top: 24px;
+}
+
+.card-dark {
+    background: #121214;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.card-dark-soft {
+    background: #0f0f12;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.hero__wrap {
+    background:
+        radial-gradient(1200px 400px at -10% 30%, rgba(255, 0, 145, 0.25), transparent 60%),
+        radial-gradient(1200px 400px at 110% 70%, rgba(111, 66, 193, 0.25), transparent 60%),
+        linear-gradient(135deg, #1a1424 0%, #0e0d13 100%);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.bg-gradient-pink {
+    background: linear-gradient(90deg, #ff4d97, #a855f7);
+}
+
+.filter-bar {
+    gap: 8px;
+}
+
+.filter-pill {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #121214;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.filter-pill.is-active {
+    border-color: transparent;
+    background: linear-gradient(90deg, #ff4d97, #a855f7);
+}
+
+.kv__k {
+    font-size: 12px;
+}
+
+.kv__v {
+    font-weight: 600;
+}
+
+.promo-input {
+    gap: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #0f0f12;
+    border-radius: 999px;
+    padding: 6px 8px;
+}
+
+.promo-code {
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.accordion-dark .accordion-item {
+    background: #121214;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    margin-bottom: 10px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.accordion-dark .accordion-button {
+    background: #121214;
+    color: #fff;
+}
+
+.accordion-dark .accordion-button:not(.collapsed) {
+    background: #18181b;
+    color: #fff;
+    box-shadow: none;
+}
+
+.accordion-dark .accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-dark .accordion-body {
+    background: #121214;
+}
+
+.cta {
+    background: linear-gradient(180deg, #121214, #0f0f12);
+}

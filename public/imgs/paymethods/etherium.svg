@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118.994" height="34.447" viewBox="0 0 118.994 34.447">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="118.994" height="34.447" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_7" data-name="Repeat Grid 7" clip-path="url(#clip-path)">
+    <g id="Group_1369" data-name="Group 1369" transform="translate(-179.707 0.158)">
+      <g id="Group_1084" data-name="Group 1084" transform="translate(179.878)">
+        <g id="Group_42" data-name="Group 42">
+          <g id="Group_41" data-name="Group 41">
+            <g id="Group_40" data-name="Group 40">
+              <g id="Group_39" data-name="Group 39">
+                <g id="Group_38" data-name="Group 38">
+                  <g id="Group_32" data-name="Group 32" transform="translate(0 0)">
+                    <path id="Path_84" data-name="Path 84" d="M518.15-2850.818a.51.51,0,0,1-.382-.172.509.509,0,0,1-.054-.6l10.171-16.854a.51.51,0,0,1,.573-.228.509.509,0,0,1,.373.491v12.327a.51.51,0,0,1-.3.465l-10.172,4.527A.515.515,0,0,1,518.15-2850.818Zm9.662-15.533-8.388,13.9,8.388-3.733Z" transform="translate(-517.64 2868.691)" fill="#ec00e4" stroke="#ec00e4" stroke-width="0.3"/>
+                  </g>
+                  <g id="Group_33" data-name="Group 33" transform="translate(0 12.327)">
+                    <path id="Path_85" data-name="Path 85" d="M528.321-2831.363a.512.512,0,0,1-.258-.07l-10.171-5.978a.509.509,0,0,1-.251-.468.509.509,0,0,1,.3-.437l10.172-4.527a.51.51,0,0,1,.485.038.509.509,0,0,1,.232.427v10.5a.509.509,0,0,1-.257.442A.508.508,0,0,1,528.321-2831.363Zm-9.059-6.424,8.549,5.024v-8.829Z" transform="translate(-517.64 2842.886)" fill="#ec00e4" stroke="#ec00e4" stroke-width="0.3"/>
+                  </g>
+                  <g id="Group_34" data-name="Group 34" transform="translate(0 18.97)">
+                    <path id="Path_86" data-name="Path 86" d="M528.321-2813.81a.508.508,0,0,1-.414-.212l-10.172-14.149a.51.51,0,0,1,.037-.641.509.509,0,0,1,.635-.1l10.171,5.977a.511.511,0,0,1,.251.44v8.172a.509.509,0,0,1-.353.485A.508.508,0,0,1,528.321-2813.81Zm-8.349-13,7.839,10.906v-6.3Z" transform="translate(-517.64 2828.979)" fill="#ec00e4" stroke="#ec00e4" stroke-width="0.3"/>
+                  </g>
+                  <g id="Group_35" data-name="Group 35" transform="translate(10.171)">
+                    <path id="Path_87" data-name="Path 87" d="M549.614-2850.819a.511.511,0,0,1-.207-.044l-10.171-4.527a.509.509,0,0,1-.3-.465v-12.327a.509.509,0,0,1,.373-.49.509.509,0,0,1,.573.227l10.171,16.854a.509.509,0,0,1-.054.6A.509.509,0,0,1,549.614-2850.819Zm-9.662-5.367,8.388,3.733-8.388-13.9Z" transform="translate(-538.933 2868.691)" fill="#ec00e4" stroke="#ec00e4" stroke-width="0.3"/>
+                  </g>
+                  <g id="Group_36" data-name="Group 36" transform="translate(10.171 12.327)">
+                    <path id="Path_88" data-name="Path 88" d="M539.443-2831.363a.509.509,0,0,1-.253-.067.509.509,0,0,1-.257-.442v-10.5a.51.51,0,0,1,.232-.428.511.511,0,0,1,.485-.038l10.171,4.527a.509.509,0,0,1,.3.437.51.51,0,0,1-.251.468l-10.171,5.978A.512.512,0,0,1,539.443-2831.363Zm.509-10.229v8.83l8.549-5.024Z" transform="translate(-538.933 2842.886)" fill="#ec00e4" stroke="#ec00e4" stroke-width="0.3"/>
+                  </g>
+                  <g id="Group_37" data-name="Group 37" transform="translate(10.171 18.97)">
+                    <path id="Path_89" data-name="Path 89" d="M539.442-2813.81a.506.506,0,0,1-.156-.024.51.51,0,0,1-.354-.485v-8.172a.511.511,0,0,1,.251-.44l10.172-5.977a.508.508,0,0,1,.634.1.51.51,0,0,1,.037.641l-10.171,14.149A.509.509,0,0,1,539.442-2813.81Zm.51-8.39v6.3l7.84-10.906Z" transform="translate(-538.933 2828.979)" fill="#ec00e4" stroke="#ec00e4" stroke-width="0.3"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text id="Ethereum_ETH" data-name="Ethereum ETH" transform="translate(216.701 21)" fill="#ccd6f6" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Ethereum ETH</tspan></text>
+    </g>
+  </g>
+</svg>
